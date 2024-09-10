@@ -19,7 +19,19 @@ export default function Scene() {
             {/*Lighting Need More Adjustment*/}
             <ambientLight intensity={2} />
             <directionalLight 
-                position={[0, 0, 3]}
+                position={[0, 2, 3]}
+                intensity={1.5} 
+            />
+            <directionalLight 
+                position={[6, 2, 3]}
+                intensity={1.5} 
+            />
+            <directionalLight 
+                position={[-6, -2, 3]}
+                intensity={1.5} 
+            />
+            <directionalLight 
+                position={[0, -2, -3]}
                 intensity={1.5} 
             />
 

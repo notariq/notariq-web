@@ -15,6 +15,10 @@
   }
 }
 
+.massive-text {
+  font-size: 10rem;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
@@ -31,4 +35,11 @@ body {
 
 input {
   outline: none;
+}
+
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }

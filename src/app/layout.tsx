@@ -6,6 +6,9 @@ const inter = Source_Code_Pro({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "notariq",
+  icons: {
+    icon: '/logos/coffee.svg'
+  }
 };
 
 export default function RootLayout({
